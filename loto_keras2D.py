@@ -40,7 +40,7 @@ tf.random.set_seed(SEED)
 # -----------------------------
 # 1️⃣ Load and preprocess data
 # -----------------------------
-df = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7_4506_k87.csv', header=None)
+df = pd.read_csv('/data/loto7_4506_k87.csv', header=None)
 
 
 # Normalize the data
@@ -107,7 +107,7 @@ print(f"The predicted next set of numbers is: {predicted_numbers}")
 print()
 """
 1000
-The predicted next set of numbers is: [4, 9, 13, 18, 24, 29, 35]
+The predicted next set of numbers is: [4, 9, x, x, x, 29, 35]
 """
 
 
